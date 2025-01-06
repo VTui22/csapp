@@ -28,6 +28,6 @@ typedef struct REG_STRUCT
     uint64_t rip;
 } reg_t;
 
-reg_t reg;
+extern reg_t reg;
 
 #endif

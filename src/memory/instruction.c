@@ -5,6 +5,8 @@
 
 #include <stdio.h>
 
+handler_t handler_table[NUM_INSTRTYPE];
+
 static uint64_t decode_od(od_t od)
 {
     if (od.type == IMM)

@@ -5,7 +5,7 @@
 
 #define MM_LEN 1000
 
-uint8_t mm[MM_LEN]; // physical memory
+extern uint8_t mm[MM_LEN]; // physical memory
 
 
 uint64_t read64bits_dram(uint64_t paddr);

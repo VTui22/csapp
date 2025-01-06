@@ -5,6 +5,8 @@
 
 #define SRAM_CACHE_SETTING 0
 
+uint8_t mm[MM_LEN];
+reg_t reg;
 // flighting
 
 uint64_t read64bits_dram(uint64_t paddr)

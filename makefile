@@ -1,4 +1,3 @@
-CC = /usr/bin/gcc-9
 CFLAGS = -Wall -g -O2 -Werror -std=gnu99
 
 EXE = program
